@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 问题集锦
 ---
 
 <p class="message">
