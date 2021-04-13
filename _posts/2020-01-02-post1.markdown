@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 模块一啊
+title: part-1
 date: 2020-04-02 19:20:23 +0900
 categories: module-1
 ---
