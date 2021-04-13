@@ -14,7 +14,7 @@
 #   weibo: weibo_username
 
 # # Theme Settings
-
+theme: jekyll-theme-persephone
 # # Your site's logo. Will be shown on the left top of your page.
 # logo: /img/logo.svg
 # # If the images of our blog are stored in an external cloud. You can use the jekyll-img-prefix plugin and set your images' base URL here.
