@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: 专委会介绍
 permalink: /about/
 ---
 
