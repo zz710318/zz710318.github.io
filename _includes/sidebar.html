@@ -36,28 +36,27 @@
   	<ul class="nav">
 		<li class="nav-title">分类大全</li>
 		{% for category in site.categories %}
-			if(catogery == ’a1‘){
+			{% if catogery == ’a1‘ %}
 				<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{catogery}">
 					<span class="name">{‘纵横捭阖’}</span>
 				</a>
-			}
-			if(catogery == ‘a2’){
-				<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{catogery}">
-					<span class="name">{’孺子可教‘}</span>
-				</a>
-			}
-			if(catogery == ’a3‘){
-				<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{catogery}">
-					<span class="name">{‘俯身桑梓’}</span>
-				</a>
-			}
-			else{
-				<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{catogery}">
-					<span class="name">{"其他"}</span>
-				</a>
-			}
-
-	    
+			{% else %}
+				{% if catogery == ’a2‘ %}
+					<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{catogery}">
+						<span class="name">{’孺子可教‘}</span>
+					</a>
+					{% else %}
+						{% if catogery == ’a3‘ %}
+							<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{catogery}">
+								<span class="name">{‘俯身桑梓’}</span>
+							</a>
+							{% else %}
+							<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{catogery}">
+								<span class="name">{其他}</span>
+							</a>
+					{% endif %}
+				{% endif %}
+			{% endif %}
 	    {% endfor %}
 	  </nav>
 	</ul>
