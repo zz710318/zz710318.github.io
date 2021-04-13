@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "carl_test_for_AI"
+date:   2020-04-02 20:31:29 +0900
+categories: jekyll update
+---
+Abstract:
+Biological flocks and swarms exhibit collective intelligence even though the individual animals may follow simple behavioral rules. This has inspired roboticists to explore how to create bio-inspired robot swarms and flocks, partly because many robots can only follow simple behavioral rules and partly because many robots are fragile; bio-inspired robot teams can potentially exhibit collective intelligence that exceeds the intelligence of any individual, and do so in a way that is robust to problems with individual robots. In this talk, I will present work on ways to include a human "in the loop" with swarm robots. The goal will be to identify principles and means of human-robot interaction that avoid treating the human as an infallible oracle (at one extreme) or as an undesirable disturbance (at the other). Issues of leadership, predation, stakeholders, levels of autonomy, shared control, and dynamic systems will be addressed. 
+
+Check out the [Jekyll docs][ai_site] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][ai_site]. If you have questions, you can ask them on [Jekyll Talk][ai_site].
+
+[ai_site]: http://ai.ustc.edu.cn/cn/home/
+[jekyll-gh]:   https://github.com/jekyll/jekyll
+[jekyll-talk]: https://talk.jekyllrb.com/
