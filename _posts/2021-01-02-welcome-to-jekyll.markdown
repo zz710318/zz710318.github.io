@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "哈哈哈哈 嗝！"
+title:  "哈哈哈哈----！"
 date:   2020-01-02 19:31:29 +0900
 categories: part-3
 tags: 3
