@@ -15,7 +15,7 @@
 	<ul class="nav">
       <li class="nav-title">页面展示</li>
 	  <li>
-	  	<a class="nav-item" href="/">最新--论点</a>
+	  	<a class="nav-item" href="/">最新论点</a>
 	  </li>
 	  {% assign pages_list = site.pages %}
 	  {% for node in pages_list %}
@@ -34,14 +34,30 @@
 
 <div class="sidebar-item sidebar-nav">
   	<ul class="nav">
-			<li class="nav-title">分类大全</li>
-	    {% for category in site.categories %}
-	    <li>
-	    	<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
-				<span class="name">{{ tag | first }}</span>
-				<span class="badge">{{ tag | last | size }}</span>
-	    	</a>
- 		</li>
+		<li class="nav-title">分类大全</li>
+		{% for category in site.categories %}
+			if(catogery == "a1"){
+				<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{catogery}">
+					<span class="name">{"纵横捭阖"}</span>
+				</a>
+			}
+			if(catogery == "a2"){
+				<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{catogery}">
+					<span class="name">{"孺子可教"}</span>
+				</a>
+			}
+			if(catogery == "a3"){
+				<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{catogery}">
+					<span class="name">{"俯身桑梓"}</span>
+				</a>
+			}
+			else{
+				<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{catogery}">
+					<span class="name">{"其他"}</span>
+				</a>
+			}
+
+	    
 	    {% endfor %}
 	  </nav>
 	</ul>
@@ -50,3 +66,14 @@
 <div class="sidebar-item sidebar-footer">
 	<p>Powered by <a href="https://github.com/jekyll/jekyll">Jekyll</a></p>
 </div>
+
+
+
+
+<!--<li>
+	    	<a class="nav-item" href="{{ root_url }}/{{ site.category_dir }}#{{ category | first }}">
+				<span class="name">{{ category | first }}</span>
+				<span class="badge">{{ category | last | size }}</span>
+	    	</a>
+		 </li>
+	-->>
