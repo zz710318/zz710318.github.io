@@ -1,8 +1,8 @@
 ---
 layout: post
-title: part-1
+title: 繁体测试
 date: 2020-04-02 19:20:23 +0900
-categories: module-1
+categories: 中文测试
 ---
 # post-sample
 > Hello!
