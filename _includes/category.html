@@ -1,6 +1,6 @@
 <article class="post">
 	<header class="post-header home">
-		<div class="post-title">分类大全 - <span id='category-name'></span></div>
+		<div class="post-title">分类大全 - <span id='tag-name'></span></div><!--category-name-->
 	</header>
 
 	<div class="post-content">
@@ -27,7 +27,7 @@
 	function removeCategory() {
 		if (window.location.hash) {
 			let hash = window.location.hash.substring(1);
-			$('#category-name').text(hash.substring(0, 1).toUpperCase() + hash.substring(1));
+			$('#tag-name').text(hash.substring(0, 1).toUpperCase() + hash.substring(1)); /*<!--category-name-->*/
 			let category_class = '.post-category-' + hash;
 			let items = $('.post-list-item').each((i, e) => {
 				if (!$(e).hasClass('post-category-' + hash)) {
