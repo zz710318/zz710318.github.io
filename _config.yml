@@ -1,8 +1,8 @@
 # Setup
-title: Qinghao Zhuang
+title: Not Pure Poole
 description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://zz710318.github.io/
-avatar: /Qinghao.jpg
+url: https://vszhub.github.io
+avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
 cover_image: /bg.jpeg
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Qinghao Zhuang
-  url: https://zz710318.github.io/
-  email: carl_zhuang@qq.com
+  name: Songzi Vong
+  url: https://github.com/vszhub/
+  email: vszhub@gmail.com
